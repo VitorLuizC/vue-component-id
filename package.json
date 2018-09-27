@@ -8,6 +8,17 @@
     "id",
     "id-generator"
   ],
+  "cdn": "dist/vue-component-id.js",
+  "main": "dist/vue-component-id.cjs.js",
+  "types": "src/index.d.ts",
+  "unpkg": "dist/vue-component-id.js",
+  "module": "dist/vue-component-id.es.js",
+  "jsdelivr": "dist/vue-component-id.js",
+  "umd:main": "dist/vue-component-id.js",
+  "scripts": {
+    "build": "bili src/index.js --format es,cjs,umd --js buble",
+    "prepare": "yarn build"
+  },
   "author": {
     "url": "https://vitorluizc.github.io/",
     "name": "Vitor Luiz Cavalcanti",
@@ -21,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/VitorLuizC/vue-component-id/issues"
   },
-  "homepage": "https://github.com/VitorLuizC/vue-component-id#readme"
+  "homepage": "https://github.com/VitorLuizC/vue-component-id#readme",
+  "devDependencies": {
+    "bili": "^3.1.2"
+  }
 }

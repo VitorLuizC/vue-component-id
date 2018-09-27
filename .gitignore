@@ -8,3 +8,6 @@ npm-lockfile.json
 # Log files.
 *.log
 *.log.*
+
+# Distribution sources.
+dist/
