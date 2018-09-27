@@ -16,8 +16,9 @@
   "jsdelivr": "dist/vue-component-id.js",
   "umd:main": "dist/vue-component-id.js",
   "scripts": {
+    "test": "ava src/index.spec.js",
     "build": "bili src/index.js --format es,cjs,umd --js buble",
-    "prepare": "yarn build"
+    "pretest": "yarn build"
   },
   "files": [
     "dist/",
@@ -36,8 +37,18 @@
   "bugs": {
     "url": "https://github.com/VitorLuizC/vue-component-id/issues"
   },
+  "ava": {
+    "require": [
+      "./src/test/setup-browser-env.js"
+    ]
+  },
   "homepage": "https://github.com/VitorLuizC/vue-component-id#readme",
   "devDependencies": {
-    "bili": "^3.1.2"
+    "@vue/test-utils": "^1.0.0-beta.25",
+    "ava": "^0.25.0",
+    "bili": "^3.1.2",
+    "browser-env": "^3.2.5",
+    "vue": "^2.5.17",
+    "vue-template-compiler": "^2.5.17"
   }
 }
