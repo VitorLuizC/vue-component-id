@@ -1,5 +1,7 @@
 # vue-component-id
 
+[![Build Status](https://travis-ci.org/VitorLuizC/vue-component-id.svg?branch=master)](https://travis-ci.org/VitorLuizC/vue-component-id)
+
 Generates an unique ID for every Vue component.
 
 ## Install
