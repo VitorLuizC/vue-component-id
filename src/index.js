@@ -31,7 +31,7 @@ const install = (Vue, options = {}) => {
   Vue.mixin({
     data () {
       return {
-        $id: generator()
+        componentID: generator()
       };
     }
   });

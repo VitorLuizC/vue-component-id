@@ -24,13 +24,13 @@ Vue.use(ComponentID);
 
 ## Usage
 
-After installation an `$id` property is available on scope. So, you can use it on templates and module scope.
+After installation an `componentID` property is available on scope. So, you can use it on templates and module scope.
 
 ```vue
 <template>
   <fieldset>
-    <label :for="$id">Password</label>
-    <input :id="$id" type="password" v-model="password" />
+    <label :for="componentID">Password</label>
+    <input :id="componentID" type="password" v-model="password" />
   </fieldset>
 </template>
 
@@ -38,7 +38,7 @@ After installation an `$id` property is available on scope. So, you can use it o
   export default {
     mounted () {
       // Shows Component's unique ID on console.
-      console.log(this.$id);
+      console.log(this.componentID);
     }
   };
 </script>
