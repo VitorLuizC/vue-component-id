@@ -1,6 +1,6 @@
 {
   "name": "vue-component-id",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Generates an unique ID for every component.",
   "keywords": [
     "vue-plugin",
@@ -17,7 +17,7 @@
   "umd:main": "dist/vue-component-id.js",
   "scripts": {
     "test": "ava src/index.spec.js",
-    "build": "bili src/index.js --format es,cjs,umd --js buble",
+    "build": "bili src/index.js --format es,cjs,umd --js buble --banner",
     "pretest": "yarn build"
   },
   "files": [
