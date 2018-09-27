@@ -19,6 +19,10 @@
     "build": "bili src/index.js --format es,cjs,umd --js buble",
     "prepare": "yarn build"
   },
+  "files": [
+    "dist/",
+    "src/index.d.ts"
+  ],
   "author": {
     "url": "https://vitorluizc.github.io/",
     "name": "Vitor Luiz Cavalcanti",
