@@ -1,0 +1,25 @@
+{
+  "name": "vue-component-id",
+  "version": "0.0.0",
+  "description": "Generates an unique ID for every component.",
+  "keywords": [
+    "vue-plugin",
+    "vue",
+    "id",
+    "id-generator"
+  ],
+  "author": {
+    "url": "https://vitorluizc.github.io/",
+    "name": "Vitor Luiz Cavalcanti",
+    "email": "vitorluizc@outlook.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VitorLuizC/vue-component-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VitorLuizC/vue-component-id/issues"
+  },
+  "homepage": "https://github.com/VitorLuizC/vue-component-id#readme"
+}
