@@ -1,6 +1,6 @@
 {
   "name": "vue-component-id",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Generates an unique ID for every component.",
   "keywords": [
     "vue-plugin",
